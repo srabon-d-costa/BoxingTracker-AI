@@ -1,0 +1,12 @@
+# Streamlit Community Cloud, Python 3.11, CPU-only inference
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.10.0+cpu; sys_platform == "linux"
+torchvision==0.25.0+cpu; sys_platform == "linux"
+streamlit>=1.40,<2
+pandas>=2.0,<3
+plotly>=5.18,<7
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+ultralytics>=8.3,<9
+Pillow>=10
+imageio-ffmpeg>=0.5

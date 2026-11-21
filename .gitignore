@@ -1,0 +1,24 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pt
+*.pt.*
+.DS_Store
+.venv/
+venv/
+.env
+runs/
+workspaces/
+videos/*
+!videos/.gitkeep
+outputs/*
+!outputs/demo/
+outputs/demo/*
+!outputs/demo/punch_events.csv
+!outputs/demo/punch_debug.csv
+!outputs/demo/summary.csv
+!outputs/demo/annotated_boxing_h264.mp4
+
+# Include the already-converted public demo video.
+!outputs/demo/annotated_boxing_player.mp4
+.streamlit/secrets.toml
